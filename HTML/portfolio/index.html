@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Webpage">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 100%;
+            font-family: cursive;
+        }
+        div {
+            margin-bottom: 5px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            white-space:pre;
+            display: inline-block;
+        }
+        img {
+            width: 32px;
+            height: auto
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        table{
+            background:#000;
+        }
+        tr{
+            background: #fff;
+        }
+        .textfield * {
+            vertical-align: top;
+        }
+        ul {
+            display: inline-block;
+            *display: inline;
+            zoom: 1;
+            margin-top: -10px;
+            margin-bottom: -5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hai Shen Rong</h1>
+    <div>
+        <img style="width:130px; height:auto;" src = "images/blank-person.png" alt = "Blank Person Image">
+    </div>
+    <div>
+        <img src = "images/icons8-github-32.png" alt = "Github Icon">
+        <a href="https://github.com/haishenrong">My Github</a>
+        <img src = "images/linkedin.png" alt = "Linkedin Icon">
+        <a href="https://www.linkedin.com/in/hai-shen-rong-8250a31a4/">My Linkedin</a>
+        <img src = "images/email.png" alt = "Email Icon">
+        <a href="mailto:haishenrong@gmail.com">My Email</a>
+    </div>
+    <h2>Technologies</h2>
+    <div>
+        <table>
+            <tr>
+                <th>Frontend</th>
+                <th>Backend</th>
+                <th>Javascript</th>
+                <th>Database</th>
+            </tr>
+            <tr>
+                <td>SpringMVC</td>
+                <td>Java</td>
+                <td> </td>
+                <td>MySQL</td>
+            </tr>
+            <tr>
+                <td>React/Redux</td>
+                <td>Express</td>
+                <td>Node.js</td>
+                <td>MongoDB</td>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>Python</td>
+                <td>Typescript</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <h2>   Music               Books</h2>
+    <div>
+        <ul>
+            <li><a href="https://emancipator.bandcamp.com/">Emancipator</a></li>
+            <li><a href="https://mariom.bandcamp.com/">Mario Meltsa</a></li>
+            <li><a href="https://music.tomday.me/">Tom Day</a></li>
+        </ul>
+        <ul>
+            <li>Maniac Magee by Jerry Spinelli</li>
+            <li>The Idiot by Fyodor Dostoevsky</li>
+            <li>Ball of Fat by Guy de Maupassant</li>
+        </ul>
+    </div>
+    <h2>Contact Me:</h2>
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input 
+                type="text"
+                name="name"
+                id="name"
+                size="12">
+            <label>Email: </label>
+            <input 
+                type="text"
+                name="email"
+                id="email"
+                size="12">
+        </div>
+        <div class="textfield"> 
+            <label>Message: </label>
+            <textarea name="message" id="message" cols="30" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
