@@ -1,0 +1,32 @@
+* {
+    font-family: cursive;
+    padding-left:5px;
+    padding-right:5px;
+    margin-top:7px;
+    margin-bottom:0px;
+    color: white;
+}
+h1 {
+    background-color: black;
+    line-height: 60px;
+}
+h2 {
+
+    background-color: rebeccapurple;
+    text-align: center;
+    font-style: italic;
+    font-weight:lighter;
+    line-height: 40px;
+}
+h3 {
+    background-color: skyblue;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+    line-height: 30px;
+}   
+span {
+    color:aqua;
+    padding-left:0px;
+    padding-right:0px;
+}
