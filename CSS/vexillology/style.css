@@ -1,0 +1,117 @@
+.container{
+    width: 750px;
+    height: 500px;
+    background-color:antiquewhite;
+    margin: 0px auto;
+}
+.bar-bigNW1 {
+    background-color:black;
+    width: 100px;
+    height: 15px;
+    transform: translate(100px, 100px) rotate(120deg);
+}
+.bar-bigNW2 {
+    background-color:black;
+    width: 100px;
+    height: 15px;
+    transform: translate(120px, 96px) rotate(120deg);
+}
+.bar-bigNW3 {
+    background-color:black;
+    width: 100px;
+    height: 15px;
+    transform: translate(140px, 92px) rotate(120deg);
+}
+
+.bar-bigNW4 {
+    background-color:black;
+    width: 100px;
+    height: 15px;
+    transform: translate(530px, 76px) rotate(240deg);
+}
+.bar-small-1 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(520px, 34px) rotate(240deg);
+}
+.bar-small-2 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(550px, 100px) rotate(240deg);
+}
+.bar-small-3 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(570px, -10px) rotate(240deg);
+}
+.bar-small-4 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(598px, 28px) rotate(240deg);
+}
+
+.bar-small-5 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(515px, 240px) rotate(120deg);
+}
+.bar-small-6 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(540px, 180px) rotate(120deg);
+}
+.bar-small-7 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(540px, 225px) rotate(120deg);
+}
+.bar-small-8 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(565px, 165px) rotate(120deg);
+}
+.bar-small-9 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(565px, 210px) rotate(120deg);
+}
+.bar-small-10 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(590px, 150px) rotate(120deg);
+}
+
+.bar-big1 {
+    background-color:black;
+    width: 100px;
+    height: 15px;
+    transform: translate(100px, 140px) rotate(240deg);
+}
+.bar-big2 {
+    background-color:black;
+    width: 100px;
+    height: 15px;
+    transform: translate(140px, 130px) rotate(240deg);
+}
+.bar-small-11 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(135px, 72px) rotate(240deg);
+}
+.bar-small-12 {
+    background-color:black;
+    width: 40px;
+    height: 15px;
+    transform: translate(165px, 140px) rotate(240deg);
+}
