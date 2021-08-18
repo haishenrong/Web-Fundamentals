@@ -1,0 +1,42 @@
+* {
+    font-family:cursive;
+}
+
+.nav {
+    width: auto;
+    height: 50px;
+    background-color:rgb(53, 53, 53);
+    display:flex;
+    align-items: center;
+    border-radius:5px;
+}
+
+.nav-title{
+    color:aliceblue;
+    margin: 2px 0px 2px 15px;
+    justify-self: flex-start;
+}
+
+.nav-links{
+    margin-left:auto;
+    margin-right: 15px;
+    display:flex;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.btn {
+    border: 2px solid black;
+    color:aliceblue;
+    background-color: darkcyan;
+    box-shadow: 2px 2px 2px black;
+}
