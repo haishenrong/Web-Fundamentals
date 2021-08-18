@@ -1,0 +1,42 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color:darkslategrey;
+    text-align:center;
+    padding:15px;
+    line-height:30px;
+    margin:0px;
+}
+
+#wrapper{
+    width: 880px;
+    height: 850px;
+    background-color:aliceblue;
+}
+
+.imgHolder {
+    width: 830px;
+    height: 230px;
+    margin: 0px 50px 15px 25px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+#topDiv{
+    background-color:mediumturquoise;
+}
+
+#midDiv{
+    background-color:indianred;
+    justify-content:space-evenly;
+}
+
+#botDiv{
+    background-color:ivory;
+}
+
+img.octocat {
+    height: 200px;
+}
