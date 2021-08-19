@@ -1,0 +1,75 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#card-top {
+    margin: 20px 0px -3px 50px;
+    width: 500px;
+    height: 80px;
+    background-color: teal;
+    border: 3px solid teal;
+    border-radius: 2.5px;
+}
+
+.info {
+    position:relative;
+    left: 30px;
+    top: 10px;
+}
+
+#name {
+    top: 20px;
+}
+
+#map-marker {
+    width: 15px;
+    height: auto;
+    top: 0px;
+}
+
+#city {
+    position: fixed;
+    top: 168px;
+    left: 115px;
+}
+
+#description1{
+    top: -15px;
+}
+
+#description2{
+    top:-33px;
+}
+
+#gear {
+    width: 15px;
+    height: auto;
+    top: -43px;
+}
+
+#link {
+    position: fixed;
+    top: 268px;
+    left: 115px;
+    font-size: 14px;
+}
+
+#card-bot {
+    position:relative;
+    margin:-4px 0px 0px 50px;
+    width: 500px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 3px solid lightslategray;
+    border-radius: 2.5px;
+}
+
+#user {
+    height: 80px;
+    position: absolute;
+    top:60px;
+    left: 90px;
+    border-radius: 50%;
+    border: 2.5px solid lightslategray;
+}
+
