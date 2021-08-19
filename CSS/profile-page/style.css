@@ -1,0 +1,201 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav {
+    width: auto;
+    height: 50px;
+    background-color:rgb(53, 53, 53);
+    display:flex;
+    align-items: center;
+}
+
+.nav-title{
+    flex:0.5;
+    color:aliceblue;
+    margin: 0px 0px 2px 0px;
+    justify-self: flex-start;
+}
+
+.nav-links{
+    flex: 2.5;
+    display:flex;
+    margin-left: 5px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color:dimgray;
+}
+
+.btn {
+    flex: 0.5;
+    border: 2px solid black;
+    color:aliceblue;
+    background-color: darkcyan;
+    box-shadow: 2px 2px 2px black;
+}
+
+.btn:hover{
+    color:dimgray;
+}
+.blankspace {
+    flex: .75;
+}
+
+
+.content {
+    width: auto;
+    height:auto;
+    background-color:aliceblue;
+    display:flex;
+}
+
+.col-left {
+    flex: 2;
+    min-width: 380px;
+}
+
+.col-mid{
+    flex:0.25;
+    min-width:20px;
+}
+.col-right{
+    flex:1.25;
+    min-width: 280px;
+}
+.card-top {
+    margin: 20px 0px -3px 00px;
+    width: auto;
+    height: 80px;
+    background-color:rgb(53, 53, 53);
+    border: 3px solid rgb(53, 53, 53);
+    border-radius: 2.5px;
+    padding:0px 25px;
+    display: flex;
+}
+
+#user-card-top {
+    background-color: teal;
+    border: 3px solid teal;
+}
+.info {
+    position:absolute;
+    left: 30px;
+}
+
+#map-marker {
+    width: 15px;
+    height: auto;
+    top: 80px;
+}
+
+#city {
+    top: 83px;
+    left: 60px;
+}
+
+#gear {
+    width: 15px;
+    height: auto;
+    top: 160px;
+}
+
+#link {
+    top: 160px;
+    left: 60px;
+    font-size: 14px;
+    color: blue;
+}
+.card-bot {
+    position:relative;
+    margin:-4px 0px -80px 00px;
+    width: auto;
+    height: 200px;
+    background-color: aliceblue;
+    border: 3px solid lightslategray;
+    border-radius: 2.5px;
+}
+
+#user {
+    height: 80px;
+    position: relative;
+    top:-170px;
+    left: 40px;
+    border-radius: 50%;
+    border: 2.5px solid lightslategray;
+}
+
+#info {
+    height: 40px;
+}
+
+#connection {
+    height: 55px;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+#duration {
+    color: gray; 
+    font-size:12px;
+}
+
+#education{
+    color:aliceblue;
+    margin:10px 0px 10px 0px;
+}
+
+.notif {
+    height: 20px;
+    min-width: 20px;
+    width: auto;
+    color:black;
+    margin:15px 0px 15px 0px;
+    background-color:lightgrey;
+    border: 2px solid lightgrey;
+    text-align: center;
+    border-radius:50%;
+}
+.friend-req {
+    display:flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin:10px 0px;
+}
+
+#friend-portrait {
+    height: 40px;
+    border-radius: 50%;
+    border: 2.5px solid lightslategray;
+}
+
+#friend {
+    flex:1;
+    align-self:center;
+    margin-left: 10px;
+}
+
+.button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-self:center;
+    margin-right:5px;
+}
+
+.button:hover {
+    border: 2.5px solid black;
+}

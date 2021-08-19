@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="blankspace"></div>
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button class="btn">Sign Out</button>
+        <div class="blankspace"></div>
+    </div>
+
+    <div class="content">
+        <div class="blankspace"></div>
+        <div class = "col-left">
+            <div class="card-top" id="user-card-top"></div>
+            <div class="card-bot">
+                <h1 class="info" style="top: 40px;"> Jane Doe</h1>
+                <img class="info" id="map-marker" src="icons/map-marker.png" alt = "map marker">
+                <h3 class = "info" id = "city"> Seattle </h3>
+                <h5 class="info" style="top:110px;">Developer | Engineer | Problem Solver</h5>
+                <h5 class="info" style="top:130px;">Master of shadows and the Internet!</h5>
+                <img class="info" id="gear" src="icons/gear.png" alt = "gear">
+                <a class= "info" id="link" href="#">edit profile</a>
+            </div>
+            <img id="user" src="images/jane-m.jpg" alt = "jane m">
+            <div class="card-top" id="info">
+                <h4 id="education">Education</h4>
+            </div>
+            <div class="card-bot" style="height:auto; padding:15px 25px;">
+                <h4>Coding Dojo - Fullstack Bootcamp</h4>
+                <p id="duration">Dec 2019 - Mar 2020</p>
+                <h5 style="margin-top:4px;">Triple black belt in Python, MERN, and C#...</h5>
+            </div>
+        </div>
+        <div class="col-mid"></div>
+        <div class="col-right">
+            <div class="card-top" id="connection">
+                <div class="notif">2</div>
+                <h4 style= "margin:18px 0px 18px 10px;" id="education">Connection Requests</h4>
+            </div>
+            <div class="card-bot" style="height:auto; padding:0px 10px; margin-bottom: 0px;">
+                <div class="friend-req">
+                    <img id="friend-portrait" src="images/todd-s.jpg" alt = "todd s">
+                    <h4 id="friend">Todd E</h4>
+                    <input type="image" class="button" src="icons/accept-circle.png"/>
+                    <input type="image" class="button" src="icons/close-circle.png" />
+                </div>
+                <div class="friend-req">
+                    <img id="friend-portrait" src="images/phil-s.jpg" alt = "phil s">
+                    <h4 id="friend">Phil K</h4>
+                    <input type="image" class="button" src="icons/accept-circle.png"/>
+                    <input type="image" class="button" src="icons/close-circle.png" />
+                </div>
+            </div>
+            <div class="card-top" id="connection">
+                <div class="notif">500+</div>
+                <h4 style= "margin:18px 10px;" id="education">Your Connections</h4>
+            </div>
+            <div class="card-bot" style="height:auto; padding:0px 10px; margin-bottom: 0px;">
+                <div class="friend-req">
+                    <img id="friend-portrait" src="images/adrien-s.jpg" alt = "adrien s">
+                    <h4 id="friend">Adrien D</h4>
+                </div>
+                <div class="friend-req">
+                    <img id="friend-portrait" src="images/anne-s.jpg" alt = "anne s">
+                    <h4 id="friend">Anne J</h4>
+                </div>
+                <div class="friend-req">
+                    <img id="friend-portrait" src="images/alayne-s.jpg" alt = "alayne s">
+                    <h4 id="friend">Alayne T</h4>
+                </div>
+                <div class="friend-req">
+                    <img id="friend-portrait" src="images/arry-s.jpg" alt = "arry s">
+                    <h4 id="friend">Arry Y</h4>
+                </div>
+            </div>
+            <div class="card-bot" style="height:auto; padding:0px 10px; margin-bottom: 0px;">
+                <a style="color:teal; font:bolder;" href="#"><u>View More</u></a>
+            </div>
+
+        </div>
+        <div class="blankspace"></div>
+    </div>
+</body>
+</html>
