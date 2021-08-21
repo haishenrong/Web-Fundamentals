@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    margin:auto;
+    padding: 0px 20px;
+    width: 80%;
+    min-width: 500px;
+    height: 60px;
+    background-color: rgb(175, 175, 175);
+    justify-content:space-between;
+    align-items:center;
+    display: flex;
+    gap:50px;
+}
+
+.nav-interior {
+    height:25px;
+}
+
+#title {
+    margin-top:-15px;
+    flex:0.5;
+}
+
+#search {
+    border: 3px solid black;
+    flex:1;
+}
+
+#login {
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: cornflowerblue;
+    width: 50px;
+    color:aliceblue;
+}
+
+
+.content{
+    margin:20px auto;
+    width: 83%;
+    min-width: 500px;
+    display:flex;
+    gap:20px;
+}
+
+.left {
+    flex:2;
+}
+
+.right {
+    flex:1;
+}
+
+.entry {
+    border: 2px solid black;
+    display:flex;
+    margin-bottom: 20px;
+}
+.word {
+    flex:1;
+    margin: auto;
+    text-align:center; 
+}
+.def {
+    flex:2;
+    padding:10px;
+}
+p {
+    margin: 20% 0px;
+}
+.like {
+    margin-top: 10px;
+    background-color: gold;
+    font:900;
+    height: 20px;
+    min-width:75px;
+    min-height: 25px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    width: auto;
+    height: auto;
+}
+
+.addDef {
+    margin: 10px 10% 5px 10%;
+    background-color:olivedrab;
+    font:900;
+    min-width:130px;
+    min-height: 30px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    width: 80%;
+    height: auto;
+}
+
+.like:hover {
+    color:aliceblue;
+    background-color:rgb(151, 117, 6)
+}
