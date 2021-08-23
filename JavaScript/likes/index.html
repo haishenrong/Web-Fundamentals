@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="network"><h1>Network</h1></div>
+    <h1 class="headline">Your Feed</h1>
+    <div class="content">
+        <div class="profile">
+            <img class="blank" src="user-circle.png" alt="user circle">
+            <div><a href="#">Add an avatar</a></div>
+            <h3 class="user">James Doe</h3>
+        </div>
+        <div class="feed">
+            <div class="post">
+                <div class="topPost">
+                    <h3 class="poster">Niel M</h3>
+                    <h4 class="likes" id="1">9 like(s)</h4>
+                    <button class="likeButton" id="1" onclick="btnPress(this)">Like</button>
+                </div>
+                <div class="description">I just setup this discord bot, Let me know what you all think. <a href="#">link</a></div>
+            </div>
+            <div class="post">
+                <div class="topPost">
+                    <h3 class="poster">Nichole K</h3>
+                    <h4 class="likes" id="2">12 like(s)</h4>
+                    <button class="likeButton" id="2" onclick="btnPress(this)">Like</button>
+                </div>
+                <div class="description">Just finished my <a href="#">next comic</a>, check it out.</div>
+            </div>
+            <div class="post">
+                <div class="topPost">
+                    <h3 class="poster">Jim R</h3>
+                    <h4 class="likes" id="3">9 like(s)</h4>
+                    <button class="likeButton" id="3" onclick="btnPress(this)">Like</button>
+                </div>
+                <div class="description">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

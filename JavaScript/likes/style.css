@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.network{
+    background-color: black;
+    border: 2px solid black;
+    color:aliceblue;
+    padding-left: 5px;
+    margin:0px 10%;
+    width: 80%;
+}
+
+.headline{
+    text-align: center;
+}
+
+.content{
+    margin:10px 10%;
+    display:flex;
+    height: 250px;
+    gap: 5%;
+}
+.profile{
+    flex:1;
+    border: 3px solid black;
+    text-align: center;
+    margin:0px auto;
+}
+.blank{
+    width:60px;
+    height:auto;
+    margin: 15% 20%;
+}
+.user{
+    margin:15px 0px;
+}
+.feed{
+    flex:3;
+}
+.post{
+    margin-bottom:10px;
+    border: 3px solid black;
+    padding:15px;
+}
+.topPost {
+    display:flex;
+}   
+.poster{
+    flex:2;
+    margin:auto 0px;
+}
+.likes{
+    flex:1;
+    margin:auto 0px;
+}
+.likeButton{
+    background-color: gold;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    margin:auto 0px;
+    flex:0.5;
+}
+.description{
+    margin-top:15px;
+}
